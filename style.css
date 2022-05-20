@@ -1,0 +1,94 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* 
+Header
+*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(97, 14, 14);
+
+}
+
+.left-header,
+.right-header {
+    display: flex;
+    gap: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    align-items: center;
+}
+
+.left-header {
+    font-size: 14px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.right-header{
+    font-weight: 0;
+}
+
+#logo {
+    height: 75px;
+    width: auto;
+    transform: scaleX(-1);
+}
+
+
+/* 
+BODY ONE
+*/
+
+.body-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(97, 14, 14);
+    height: 500px;
+}
+
+.left-body-one {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.left-body-one .title {
+    width: 400px;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.left-body-one .body {
+    font-size: 20px;
+}
+
+.left-header,
+.left-body-one {
+    padding-left: 200px;
+}
+
+.right-header,
+.right-body-one {
+    padding-right: 200px;
+}
+
+#council-room {
+    height: 300px;
+    width: auto;
+}
+
+
+
