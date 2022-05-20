@@ -107,7 +107,7 @@ Members
 .members .title {
     padding: 20px;
     color:  rgb(97, 14, 14);
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 900;
 
 }
@@ -143,4 +143,9 @@ Members
     object-fit: scale-down;
     border-radius: 30px;
     background-color: rgb(202, 68, 68);
+    transition: .2s;
+}
+
+.member-info img:hover {
+    transform: scale(1.05);
 }
