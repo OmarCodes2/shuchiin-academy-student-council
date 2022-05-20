@@ -244,3 +244,20 @@ a {
 .info .button:hover {
     transform: scale(1.05);
 }
+
+/*
+footer
+*/
+.footer{
+    display: flex;
+    height: 80px;
+    background-color: rgb(97, 14, 14);
+    align-items: center;
+    justify-content: center;
+}
+
+.rights{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
