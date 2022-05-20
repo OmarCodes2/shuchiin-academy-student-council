@@ -34,7 +34,7 @@ Header
 }
 
 .right-header{
-    font-weight: 0;
+    font-weight: 200;
 }
 
 #logo {
@@ -91,4 +91,56 @@ BODY ONE
 }
 
 
+/*
+Members
+*/
+.members{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    row-gap: 30px;
 
+}
+.members .title {
+    padding: 20px;
+    color:  rgb(97, 14, 14);
+    font-size: 36px;
+    font-weight: 900;
+
+}
+.member-info {
+    display: flex;
+    gap: 30px;
+
+}
+.members .name {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(202, 68, 68); 
+}
+
+.members .rank{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(134, 133, 133);
+}
+.shirogane,
+.shinomiya,
+.fujiwara,
+.ishigami {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.member-info img {
+
+    width: 300px;
+    height: 300px;
+    object-fit: scale-down;
+    border-radius: 30px;
+    background-color: rgb(202, 68, 68);
+}
